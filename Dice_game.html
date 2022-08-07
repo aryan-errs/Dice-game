@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="Dice_g.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="result">Let's Play!</h1>
+    </div>
+    <div id="display">
+        <div class="dice">
+            <p id="p1">Player 1</p>
+            <img class="img1" src="dice6.jpg">
+        </div>
+        <div class="dice">
+            <p id="p2">Player 2</p>
+            <img class="img2" src="dice6.jpg">
+        </div>
+    </div>
+    <div class="bottom">
+        <button type="button" class="btn" onclick="rollthedice()">
+            Roll The Dice
+        </button>
+    </div>
+    <div class="bottom">
+        <button onclick="editNames()" class="btn">
+            Change Names
+        </button>
+    </div>
+    <script src="dg.js"></script>
+</body>
+</html>
